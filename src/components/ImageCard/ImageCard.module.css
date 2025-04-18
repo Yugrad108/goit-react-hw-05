@@ -1,0 +1,17 @@
+.image {
+  border-radius: 8px;
+  max-width: 320px;
+  object-fit: cover;
+}
+
+.imageItem {
+  transition: transform 0.5s ease, border-color 0.5s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.08);
+  }
+}
