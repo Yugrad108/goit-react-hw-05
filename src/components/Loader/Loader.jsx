@@ -12,7 +12,7 @@ const Loader = ({ loading }) => {
         color="#5a4630"
         loading={loading}
         cssOverride={override}
-        size={60}
+        size={40}
         aria-label="Loading Spinner"
         data-testid="loader"
       />

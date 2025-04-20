@@ -8,14 +8,6 @@ body {
   align-items: center;
 }
 
-.container {
-  background-color: #f8f3ec;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
-  margin: auto;
-  padding: 15px;
-}
-
 h1 {
   text-align: center;
 }
@@ -45,4 +37,23 @@ button:hover {
 
 button.load-more {
   margin-bottom: 4px;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
 }

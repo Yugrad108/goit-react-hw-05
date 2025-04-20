@@ -1,0 +1,20 @@
+.navigation {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.link {
+  transition: color 0.5s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
+}
+
+.active {
+  color: var(--active-color);
+}
